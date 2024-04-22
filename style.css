@@ -1,0 +1,102 @@
+
+    .custom-btn {
+      width: 130px;
+      height: 40px;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+       box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      outline: none;
+    }
+    
+    /* 1 */
+    .btn-1 {
+      background: rgb(95, 96, 99);
+      background: linear-gradient(0deg, rgb(75, 81, 166) 0%, rgb(58, 72, 225) 100%);
+      border: none;
+    }
+    .btn-1:hover {
+       background: rgb(0,3,255);
+      background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+      }
+    
+    /* 2 */
+    .btn-2 {
+      background: rgb(96,9,240);
+      background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+      border: none;
+      
+    }
+    .btn-2:before {
+      height: 0%;
+      width: 2px;
+    }
+    .btn-2:hover {
+      box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                  -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+        inset -4px -4px 6px 0 rgba(255,255,255,.2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    }
+    
+/* For screens larger than md breakpoint */
+@media (min-width: 768px) {
+      .md-flex {
+        display: flex;
+      }
+    
+      .md-flex-col {
+        flex-direction: column;
+      }
+    
+      .md-w-2\/5 {
+        width: 40%; /* Change this as per your requirement */
+      }
+
+      .md-w-3\/5{
+            width: 60%;
+      }
+    
+      .text-white {
+        color: #fff; /* You might already have this in your styles */
+      }
+    
+      .font-serif {
+        font-family: serif; /* You might already have this in your styles */
+      }
+    
+      .font-semibold {
+        font-weight: 600; /* You might already have this in your styles */
+      }
+    
+      .mt-10 {
+        margin-top: 2.5rem; /* Change this as per your requirement */
+      }
+    
+      .justify-center {
+        justify-content: center; /* You might already have this in your styles */
+      }
+    
+      /* To make the element visible */
+      .md-visible {
+        display: block;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .w-full {
+        width: 100%;
+      }
+    }
+
+    .blur {
+      filter: blur(1.25px); /* Adjust the value as needed */
+    }
